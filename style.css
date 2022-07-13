@@ -155,7 +155,7 @@
 }
 
 /* Hero Section */
-.hero {
+}.hero {
   background: #000000;
   background: linear-gradient(to right, #161616, #000000);
   padding: 45px 0;
