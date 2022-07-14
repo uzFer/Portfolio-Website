@@ -70,10 +70,11 @@
 }
 
 .navbar_links:hover {
-  color: #cd8ae5;
+  color: #b464be;
   transition: all 0.3s ease;
+}
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 800px) {
   .navbar_container {
     display:flex;
     justify-content: space-between;
@@ -155,11 +156,19 @@
 }
 
 /* Hero Section */
-}.hero {
+.hero {
   background: #000000;
   background: linear-gradient(to right, #161616, #000000);
   padding: 45px 0;
-  
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
 }
 
 .hero_container {
@@ -172,6 +181,7 @@
   height: 90%;
   text-align: left;
   padding: 45px;
+  max-height: 100%;
 }
 
 .hero_heading {
@@ -297,6 +307,22 @@
   width: 600px;
 }
 
+@media screen and (max-width: 600px) {
+  .card3 {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  background: #654ea3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); 
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  padding: 30px;
+  margin: 0 0 1em 0;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  width: 300px;
+}
+}
+
 .card-heading {
   font-size: 18px;
   margin-bottom: 4px;
@@ -329,6 +355,8 @@
 }
 
 .experience_card-container {
+
+ 
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -362,15 +390,31 @@
 }
 
 .projects_container {
-  column-width: 250px;
+  
+  column-width: 350px;
   column-gap: 20px;
+  
   padding: 30px;
   align-items: center;
   justify-content: center;
-  margin-left: 180px;
 }
 
+@media screen and (max-width: 200px) {
+  .projects_container {
+    display: flex;
+    column-width: 350px;
+    column-gap: 20px;
+    padding: 30px;
+    align-items: center;
+  }
+}
 .card2{
+  
+  
+  padding: 30px;
+  margin: 0 0 1em 0;
+  text-align: center;
+  align-content: center;
   break-inside: avoid;
   page-break-inside: avoid;
 	display: flex;
@@ -380,10 +424,9 @@
   color: #fff;
 	height: 280px;
 	border-radius: 2px;
-  text-align: center;
   background: #000000;
   border: 1px solid #bf8ce8;
-  transition: all 0.3s ease;
+  
 }
 
 .card img{
@@ -393,10 +436,6 @@
 }
 
 
-.card:hover{
-	box-shadow: 0 0 1.5rem gray;
-  transition: all 0.3s ease;
-}
 
 .card2 .work-content{
 	text-align: center;
@@ -418,10 +457,6 @@
   transition: all 0.3s ease;
 }
 
-.card3:hover{
-	box-shadow: 0 0 1.5rem gray;
-  transition: all 0.3s ease;
-}
 
 .contactme-_container {
   display: flex;
@@ -589,13 +624,6 @@
   transition: all 0.3s ease;
 }
 
-
-
 .link:hover {
   color:#808080;
-}
-
-.link span {
-  text-decoration: none;
-  color: #000000;
 }
