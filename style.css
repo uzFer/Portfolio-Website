@@ -83,8 +83,8 @@
 }
 
 @media screen and (max-width: 800px) {
-  .navbar__container {
-    display:flex;
+   .navbar__container {
+    display: flex;
     justify-content: space-between;
     height: 80px;
     z-index: 1;
@@ -105,7 +105,7 @@
     z-index: -1;
   }
 
-  .navbar__menu:active {
+  .navbar__menu.active {
     background: #131313;
     top: 100%;
     opacity: 1;
@@ -136,9 +136,23 @@
     padding: 2rem;
     width: 100%;
     display: table;
+    font-size: 1rem;
   }
 
-  .navbar__toggle {
+  .navbar__btn {
+    padding-bottom: 2rem;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    margin: 0;
+  }
+
+  #mobile-menu {
     position: absolute;
     top: 20%;
     right: 5%;
@@ -150,15 +164,15 @@
     cursor: pointer;
   }
 
-  .navbar__toggle.active .bar:nth-child(2) {
+  #mobile-menu.active .bar:nth-child(2) {
     opacity: 0;
   }
 
-  .navbar__toggle.active .bar:nth-child(1) {
-    transform: translateY (8px) rotate (45deg);
+  #mobile-menu.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
   }
 
- .navbar__toggle.active .bar:nth-child(3) {
+  #mobile-menu.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
