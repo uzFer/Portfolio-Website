@@ -8,6 +8,12 @@
   scroll-behavior: smooth;
 }
 
+@media (orientation: landscape) {
+  body {
+    background: #000000;
+  }
+}
+
 /* NAVIGATION BAR */
 .navbar {
   background: #131313;
@@ -501,7 +507,7 @@
 @media screen and (max-width: 200px) {
   .projects__container {
     display: flex;
-    column-width: 350px;
+    column-width: 30%;
     column-gap: 20px;
     padding: 30px;
     align-items: center;
