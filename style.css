@@ -271,8 +271,9 @@
 
 .skills__container {
   column-width: 350px;
-  column-gap: 20px;
-  padding: 30px;
+  column-gap: 30px;
+  padding: 40px;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -500,6 +501,7 @@
   column-width: 350px;
   column-gap: 20px;
   padding: 30px;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -507,8 +509,8 @@
 @media screen and (max-width: 200px) {
   .projects__container {
     display: flex;
-    column-width: 30%;
-    column-gap: 20px;
+    column-width: 40%;
+    column-gap: 60px;
     padding: 30px;
     align-items: center;
   }
