@@ -326,6 +326,17 @@
   margin-bottom: 4px;
 }
 
+@media screen and (max-width: 900px) { 
+  .skills__container {
+    flex-direction: column;
+    column-width: 350px;
+    column-gap: 30px;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /* WORK AND VOLUNTEER EXPERIENCE */
 .experience {
   background: #000000;
@@ -344,8 +355,7 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  background: #000000;
-  background: linear-gradient(to right, #161616, #000000);
+  
 }
 
 .timeline::after {
@@ -506,14 +516,15 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 700px) {
   .projects__container {
-    display: flex;
+    flex-direction: column;
     column-width: 40%;
     column-gap: 60px;
     padding: 30px;
     align-items: center;
   }
+
 }
 
 .card2 {
@@ -547,10 +558,7 @@
   text-decoration: none;
 }
 
-.card2:hover {
-	box-shadow: 0 0 1.5rem gray;
-  transition: all 0.3s ease;
-}
+
 
 /* CONTACT ME SECTION */
 .contactme__container {
