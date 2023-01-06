@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -319,11 +319,13 @@
   font-style: italic;
   font-size: 12px;
   margin-bottom: 4px;
+  font-weight: bold;
 }
 
 .card-paragraph {
   font-size: 12px;
   margin-bottom: 4px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 900px) { 
