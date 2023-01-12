@@ -422,9 +422,9 @@
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #eaafc8;
+  border: medium solid #3c1053;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #eaafc8 transparent transparent;
+  border-color: transparent #3c1053 transparent transparent;
 }
 
 .right::after {
@@ -452,9 +452,9 @@
 
   .container::before {
     left: 60px;
-    border: medium solid #eaafc8;
+    border: medium solid #3c1053;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #eaafc8 transparent transparent;
+    border-color: transparent #3c1053 transparent transparent;
   }
 
   .left::after, .right::after {
