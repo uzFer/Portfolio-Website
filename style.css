@@ -39,9 +39,9 @@
 }
 
 #navbar__logo {
-  background: #654ea3;
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
-  background: linear-gradient(to right, #eaafc8, #654ea3);
+  background: #ad5389; 
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389); 
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -210,9 +210,9 @@
 }
 
 .hero__heading span {
-  background: #654ea3;
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); 
-  background: linear-gradient(to right, #eaafc8, #654ea3); 
+  background: #ad5389; 
+  background: -webkit-linear-gradient(to right, #6e1f98, #ad5389);
+  background: linear-gradient(to right, #6e1f98, #ad5389); 
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -233,9 +233,9 @@
 }
 
 .main__btn {
-  background: #654ea3; 
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); 
-  background: linear-gradient(to right, #eaafc8, #654ea3); 
+  background: #ad5389; 
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389); 
   color: #fff;
   display: inline-block;
   font-size: 16px;
@@ -299,9 +299,9 @@
 .card {
   break-inside: avoid;
   page-break-inside: avoid;
-  background: #654ea3; 
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); 
-  background: linear-gradient(to right, #eaafc8, #654ea3);
+  background: #ad5389; 
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389); 
   padding: 30px;
   margin: 0 0 1em 0;
   color: #fff;
@@ -384,9 +384,9 @@
   width: 25px;
   height: 25px;
   right: -17px;
-  background: #654ea3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); 
-  background: linear-gradient(to right, #eaafc8, #654ea3);
+  background: #ad5389; 
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389); 
   border: 3px solid #ffffff;
   top: 15px;
   border-radius: 50%;
@@ -409,9 +409,9 @@
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #654ea3;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #654ea3;
+  background: #ad5389; 
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389); 
 }
 
 .right::before {
@@ -433,7 +433,7 @@
 
 .content {
   padding: 20px 30px;
-  background: linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #3c1053, #ad5389);
   position: relative;
   border-radius: 6px;
   color: #fff;
@@ -475,9 +475,9 @@
 .card3 {
   break-inside: avoid;
   page-break-inside: avoid;
-  background: #654ea3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); 
-  background: linear-gradient(to right, #eaafc8, #654ea3);
+  background: #ad5389; 
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389); 
   padding: 30px;
   margin: 1em 0 1em 0;
   color: #fff;
@@ -490,9 +490,9 @@
   .card3 {
     break-inside: avoid;
     page-break-inside: avoid;
-    background: #654ea3; 
-    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); 
-    background: linear-gradient(to right, #eaafc8, #654ea3);
+    background: #ad5389; 
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    background: linear-gradient(to right, #3c1053, #ad5389); 
     padding: 30px;
     margin: 0 0 1em 0;
     color: #fff;
