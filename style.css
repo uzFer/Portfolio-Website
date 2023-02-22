@@ -541,7 +541,7 @@
 	height: 280px;
 	border-radius: 0px;
 	background: #000000;
-	border: -webkit-linear-gradient(to right, #3c1053, #ad5389); 
+	border: #ad5389; 
 }
 
 .card2 .work-content {
