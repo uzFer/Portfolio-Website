@@ -409,9 +409,9 @@
   width: 0;
   z-index: 1;
   right: 30px;
-  background: #ad5389; 
-  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
-  background: linear-gradient(to right, #3c1053, #ad5389); 
+  border: medium solid #ad5389;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #ad5389;
 }
 
 .right::before {
@@ -541,7 +541,7 @@
 	height: 280px;
 	border-radius: 0px;
 	background: #000000;
-	border: #ad5389; 
+	border: 1px solid #ad5389; 
 }
 
 .card2 .work-content {
