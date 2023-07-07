@@ -271,7 +271,7 @@
 
 .skills__container {
   column-width: 350px;
-  column-gap: 30px;
+  column-gap: 20px;
   padding: 40px;
   display: flex;
   align-items: center;
@@ -431,6 +431,7 @@
   left: -16px;
 }
 
+
 .content {
   padding: 20px 30px;
   background: linear-gradient(to right, #3c1053, #ad5389);
@@ -532,8 +533,6 @@
 	margin: 0 0 30px 0;
 	text-align: center;
 	align-content: center;
-	break-inside: avoid;
-	page-break-inside: avoid;
 	display: flex;
 	flex-direction: column;
 	width: 200px;
@@ -541,16 +540,32 @@
 	height: 280px;
 	border-radius: 0px;
 	background: #000000;
-	border: 1px solid #ad5389;
+	border: 1px solid #ad5389; 
 }
 
 .card2 .work-content {
+  display: flex;
 	text-align: center;
+  align-items:center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
 	padding: 5px 5px;
 	font-size: 1rem;
 	color: #fff;
 	cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.project__card__container {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+  align-items: center;
+}
+
+.project__card__container img {
+  width: 200px;
+  height: 170px;
 }
 
 .card2 .work-content:hover {
