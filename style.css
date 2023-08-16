@@ -221,7 +221,7 @@
 }
 
 .hero__description {
-  font-size: 26px;
+  font-size: 24px;
   color: #fff;
   margin-bottom: 24px;
 }
@@ -609,4 +609,5 @@
 
 .link:hover {
   color:#808080;
+  transition: all 0.3s ease;
 }
