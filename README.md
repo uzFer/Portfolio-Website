@@ -1,7 +1,7 @@
 # Portfolio Website
 ### Brief Overview ###
-This simple, responsive portfolio website highlights my programming skills, professional and volunteer experience, and my projects. Feel free to contact me for more information. Currently updating this portfolio website with a different design and tech stack.
+This simple, responsive portfolio website highlights my programming skills, professional and volunteer experience, and my projects. Feel free to contact me for more information!
 
 ### Tech Used ###
-- Plain HTML, CSS, JavaScript
-- Heroku to deploy
+- HTML, CSS, and JavaScript
+- Deployed on Heroku
